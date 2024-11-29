@@ -1,0 +1,113 @@
+{
+    "type": "menu",
+    "title": "Мой Медиа Центр",
+    "items": [
+        {
+            "type": "menu",
+            "title": "IPTV",
+            "icon": "https://img.icons8.com/color/48/000000/tv.png",
+            "items": [
+                {
+                    "type": "video",
+                    "title": "Новости 24/7",
+                    "poster": "https://img.icons8.com/color/96/000000/news.png",
+                    "stream": "https://example.com/iptv/news.m3u8",
+                    "description": "Круглосуточные новости в прямом эфире."
+                },
+                {
+                    "type": "video",
+                    "title": "Кино 24",
+                    "poster": "https://img.icons8.com/color/96/000000/movie-projector.png",
+                    "stream": "https://example.com/iptv/movies.m3u8",
+                    "description": "Лучшие фильмы без остановки."
+                },
+                {
+                    "type": "menu",
+                    "title": "Другие IPTV-каналы",
+                    "items": [
+                        {
+                            "type": "video",
+                            "title": "Музыка LIVE",
+                            "poster": "https://img.icons8.com/color/96/000000/music.png",
+                            "stream": "https://example.com/iptv/music.m3u8",
+                            "description": "Музыкальные каналы в высоком качестве."
+                        },
+                        {
+                            "type": "video",
+                            "title": "Спорт HD",
+                            "poster": "https://img.icons8.com/color/96/000000/soccer-ball.png",
+                            "stream": "https://example.com/iptv/sports.m3u8",
+                            "description": "Спортивные трансляции в HD."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "menu",
+            "title": "Фильмы и сериалы",
+            "icon": "https://img.icons8.com/color/48/000000/video-playlist.png",
+            "items": [
+                {
+                    "type": "video",
+                    "title": "Фильм: Космическая Одиссея",
+                    "poster": "https://example.com/images/odyssey.jpg",
+                    "stream": "https://example.com/movies/odyssey.mp4",
+                    "description": "Эпический научно-фантастический фильм."
+                },
+                {
+                    "type": "video",
+                    "title": "Сериал: Детективы",
+                    "poster": "https://example.com/images/detectives.jpg",
+                    "stream": "https://example.com/series/detectives/season1/episode1.mp4",
+                    "description": "Первый эпизод популярного сериала."
+                }
+            ]
+        },
+        {
+            "type": "menu",
+            "title": "Видео с YouTube",
+            "icon": "https://img.icons8.com/color/48/000000/youtube-play.png",
+            "items": [
+                {
+                    "type": "video",
+                    "title": "Обзор технологий",
+                    "poster": "https://img.icons8.com/color/96/000000/technology.png",
+                    "stream": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "description": "Свежие новости из мира технологий."
+                },
+                {
+                    "type": "video",
+                    "title": "Уроки программирования",
+                    "poster": "https://img.icons8.com/color/96/000000/code.png",
+                    "stream": "https://www.youtube.com/watch?v=abcdefghijk",
+                    "description": "Учебные видео по программированию."
+                }
+            ]
+        },
+        {
+            "type": "menu",
+            "title": "Настройки",
+            "icon": "https://img.icons8.com/color/48/000000/settings.png",
+            "items": [
+                {
+                    "type": "text",
+                    "title": "Версия приложения",
+                    "description": "Версия: 1.0.0"
+                },
+                {
+                    "type": "link",
+                    "title": "Поддержка",
+                    "url": "https://example.com/support",
+                    "description": "Служба поддержки пользователей."
+                },
+                {
+                    "type": "link",
+                    "title": "Политика конфиденциальности",
+                    "url": "https://example.com/privacy",
+                    "description": "Правила обработки персональных данных."
+                }
+            ]
+        }
+    ]
+}
